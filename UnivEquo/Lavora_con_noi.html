@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="it">
+    <head>
+    <!-- Viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Tag Meta-->
+    <title>UnivEquo</title>
+    <meta name="description" content="Lavora_con_noi"> <!-- Nome della pagina -->
+    <meta name="author" content="Gruppone Webbone">
+    
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/css/Preset_Sito.css" rel="stylesheet">
+    <link href="css/css/media-query.css" rel="stylesheet">      
+    <link href="css/css/print.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
+        
+</head>
+<body>
+    
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    <!--  -->
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+        
+    <!-- Questo è il logo -->
+    <a href="Homepage.html"> <img src="img\logo_unive.jpg" alt="logo univequo" style="height: 50px; width: 50px"> </a>
+    </div>
+    
+    <!--  -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+        <li>
+            <a href="Prodotti.html">Prodotti</a>
+        </li>
+        <li>
+            <a href="Produttori.html">Produttori</a>   
+        </li>
+        <li class="active">
+            <a href="Lavora_con_noi.html">Lavora con noi</a>   
+        </li>
+        <li>
+            <a href="Ricettario.html">Ricettario</a>   
+        </li>
+        <li>
+            <a href="Social.html">Social</a>   
+        </li>
+        <li>
+            <a href="Chi_Siamo.html">Chi siamo</a>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">       
+                
+    <!-- MENU DROPDOWN-Search Bar -->
+             
+    <li class="dropdown mobile-icon">
+    <!-- Bottone menu dropdown search bar -->
+    <a idhref="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-search"></i></a>
+    <ul class="dropdown-menu">
+    <form class="navbar-form navbar-left">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+    <a href="Search-pro.html"><button type="button" class="btn btn-default pull-right">Cerca</button></a>
+    </form>
+    </ul>
+    </li>
+
+    <li class="mobile-icon">   
+    <a data-toggle="modal" data-target="#Login"><i class="glyphicon glyphicon-user"></i></a> 
+    
+    </li>
+    <li class="mobile-icon">
+    <a href="Indecisus.html"><i class="glyphicon glyphicon-log-in"></i></a>
+        
+    </li>
+    </ul>
+    
+        </div><!-- /.navbar-collapse -->
+    
+        </div><!-- /.container-fluid -->
+        
+    </nav>
+    <!-- Stampo per le pagine -->
+    
+     <!-- Path -->
+    <ol class="breadcrumb">
+         <li>
+             <a href="Homepage.html">Home</a>
+         </li>
+         <li class="active">Lavora con noi</li>
+    </ol> 
+    
+    <!-- Banner -->
+    <div id="display-none-print">
+        <img src="img/Lavora_con_Noi.gif" class="img-responsivelavora">
+    </div>
+    
+    
+    
+    <!-- Contenuto -->
+    
+    <div id="testo" class="container">
+        <div class="row text-center outer">
+            <div class="col-sm-12">
+                <p class="text-center">
+                   Qui ad Univequo saremo <strong>sempre</strong> felici di aiutare a crescere le piccole realtà del luogo, provincia o regione!
+                </p>
+                <div class="text-center">
+                <span style="vertical-align:middle" class="text-center"> <strong> Sei nel posto giusto!</strong> </span>
+                <br>
+                <br>
+                <h2>Sei un privato o un'azienda?</h2>
+                    <br>
+                    </div>
+                                
+                    <p><strong> Scrivici, compila il nostro form</strong>, per poter lavorare assieme a noi! Unisciti a quelle che sono le migliori realtà equo e solidali del Veneto e inizia a crescere assieme ad Univequo.</p>
+        <!-- Form Recensioni -->
+                
+        <form id="workout">
+            <h1><strong>Entra a far parte di UnivEquo</strong></h1>
+            <br>
+            <label>Inserisci i tuoi dati:</label> <br>
+            <input type="text" name="Nome" placeholder="Nome">
+            <input type="text" name="Cognome" placeholder="Cognome"><br>
+            <input type="text" name="Azienda" placeholder="Ragione Sociale">
+            <input type="text" name="P.Iva" placeholder="P. Iva"><br>
+            <input type="text" name="Indirizzo" placeholder="Indirizzo">
+            <input type="text" name="E-mail" placeholder="E-mail"><br><br>
+            <label>Parlaci della tua azienda</label> <br>
+            <textarea name="message" rows="5" cols="47"></textarea><br><br>
+            <button type="button">Invia</button>
+        </form>
+
+            </div>
+            
+        </div>
+        
+        
+        </div>
+        
+    <!-- Form per il Login -->
+    
+    
+    <div id="Login" class="modal fade" tabindex="-1" role="dialog"aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<legend>Accedi al tuo Account</legend><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+					
+				  <div class="login-help">
+					<a href="Registrazione.html">Registrati</a> - <a href="#">Password Dimentica</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
+    <!--- Social Bar --->
+    
+    <div class="container">
+    <div id="social-bar" class="row text-center">
+        <div id="div_fb" class="col-sm-2"> 
+            <a href="https://www.facebook.com/UnivEquo/" target="_blank"> <img class=" center-block" height="70%" id="logo_fb" src="Img/facebook-icon.png" alt="logo di facebook"></a>
+        </div>
+        <div id="div_insta" class="col-sm-2">    
+            <a href="https://www.instagram.com/UnivEquo/" target="_blank"><img class="center-block" height=" 70%" id="logo_insta" src="Img/logo_instagram.png" alt="logo di instagram"></a>
+
+        </div>
+        <div id="newsletter" class="col-sm-8 align-middle">
+        <h3>Newsletter</h3>
+        <form action="" method="post">
+        <div class="input-prepend">
+        <span class="add-on"><i class="icon-envelope"></i></span>
+               <input type="text" id="" name="" placeholder="your@email.com">
+               <input type="submit" value="Iscriviti ora!" class="btn btn-default" />
+        </div>
+        </form>
+        </div>    
+    </div>
+
+    </div>
+  
+    <!-- Footer -->
+    
+    <footer class="footer">
+        <div  class="container">
+        <p>
+            Sede legale Via Torino Edificio Z Interno Aula C  <span class="paperino"><br></span><span class="footer-destra">&copy; Powered By Gruppone Wolfone</span>                       
+        </p>
+        
+        </div>
+    </footer>
+    </body>
+    
+    <!-- Script --->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    
+</html>

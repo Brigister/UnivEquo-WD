@@ -1,0 +1,624 @@
+body {
+    padding-top:50px;
+    background-color: #ffffe6;
+}
+
+.glyphicon {
+    width: 30px;
+    font-size: 17px;
+}
+
+.navbar-nav li a{
+    padding-bottom: 12.6px;
+}
+
+.navbar-form {
+    width: 300px;
+}
+
+.nobordertop {
+    border-top: 0px !important;
+}
+
+#logo_fb {
+    float: right;
+    display: block;
+    margin-top: 13.4px;
+}
+#logo_insta {
+    display: block;
+    margin-top: 13.4px;
+    float:left;
+}
+
+#div_fb {
+    height: 120px;
+    border-right: 0px;
+}
+
+#div_insta {
+    height: 120px;
+    border-left: 0px;
+}
+
+#newsletter {
+    height: 120px;
+    padding-top: 0px;
+}
+
+.breadcrumb {
+    margin-bottom: 5px;
+    background-color: #ffffe6;
+}
+
+.navbar, #social-bar{
+    background-color: #ffffb3 !important;
+}
+
+.navbar-nav > li> a{
+      color: black !important;
+}
+
+.navbar-nav > .active > a{
+      background-color:  #e6e600 !important;
+}
+
+[class*="col-"]{
+    background-color: transparent !important;
+}
+
+.img-responsive{
+    padding-bottom: 5%;
+}
+
+.immagine {
+    width: 100%;
+}
+
+.noborder {
+    border: 0px !important;
+}
+
+.nopadding {
+    padding: 0px !important;
+}
+
+.outer {
+    border: 2px solid !important;
+    border-radius: 10px;
+}
+
+.btn-group-vertical {
+    position: fixed !important;
+    
+}
+
+.width {
+    margin-top: 200px;
+    width: 150px !important;
+    background-color: #ffffb3 !important;
+}
+
+
+.sipadding {
+    padding-left: 40px !important;
+}
+
+#contenuti {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 3px solid;
+    border-radius: 20px;
+    
+}
+
+.bottone {
+    padding-top: 10px !important;
+}
+
+.outer1{
+    border: 2px solid !important;
+    margin-top: 10px;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 0px !important;
+}
+
+.no-alpadding {
+    padding-left: 0px;
+}
+
+select {
+    width: auto;
+}
+
+.hover {
+    width: 40%;
+}
+
+#malaria {
+    width:auto;
+}
+
+#storia {
+    padding-top: 20px
+}
+
+/* contenuto dx */
+
+#contenutidiv {    /* per le pagine con 3-4div prodotti*/
+    margin-top: 15px;
+    border: 3px solid;
+    border-radius: 30px;
+    margin-left: 10px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+#contenuti2 {    /* per le pagine con 5-6div prodotti*/
+    margin-top: -15px;
+    border: 3px solid;
+    border-radius: 30px;
+    margin-left: 10px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.indecisus{
+    margin-top: 200px;
+}
+
+
+.out{
+    text-align: center;
+    font-size: 20px;
+}
+
+.cont-int {
+    padding-top: 16px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    
+}
+
+.cont-int2 {    /* per le pagine con 3-4div prodotti*/
+    padding-top: 16px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.cont-int3 {    /* per le pagine con 5-6div prodotti*/
+    padding-top: 16px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.form-group {
+    text-align: center;
+}
+
+
+/* menù sx */
+
+#menu_sx {
+    padding-top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -10px;
+    border: 0px;
+}
+#list {
+    list-style-type: none;
+    padding-left: 0px;    
+}
+
+.accordion {
+    border: 2px solid ;
+    background-color: #ffffb3;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+
+}
+
+.active-menusx {
+    background-color: #e6e600;
+    
+}
+
+.panel {
+    padding: 0 15px;
+    background-color: #ffffe6;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.descrizione {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    border: 0px;
+    height: 100%;
+    border-color: black!important;
+}
+
+#carotitolo{
+    color:  #ff1a1a;
+}
+
+.stessa-altezza{
+    border-bottom: 3px dotted;
+    padding-bottom: 20px
+}
+
+.img-responsivelavora {
+  position: absolute;
+  left: 50%;
+  margin-left: -335px
+}
+
+#testo {
+    padding-top: 250px;
+    
+}
+
+#workout {
+    margin-top: 25px;
+    padding-top: 5px;
+    border-top: 3px dotted;
+}
+
+#prodotto-spec{
+    margin-top: 2%;
+}
+
+.checked {
+    color: gold;
+}
+
+.wid{
+        width: 40%;
+    }
+
+#select{
+    margin-left: 10px !important;
+}
+
+.bordertop{
+    border-width: 2px 0px 0px 0px !important;
+    border-color: black !important;
+}
+
+#spazio{
+    border-width: 2px 2px 2px 2px !important;
+    border-color: black !important;
+}
+
+#spazio1{
+    border-width: 2px 2px 2px 0px !important;
+    border-color: black !important;
+}
+
+#spazio3{
+    border-width: 2px 2px 2px 0px !important;
+    border-color: black !important;
+}
+
+.contenuto-dx{
+    border: 3px solid !important;
+    padding: 0px !important;
+    margin-left: 10px;
+}
+
+.mouse .mouseover{
+    display: none;
+}
+
+.mouse:hover .mouseover{
+    display: block !important;
+}
+
+.mouse{
+    float: left;
+        width: 33%;
+        text-align: center;
+}
+
+.mouse2{
+    width: 50%;
+}
+
+#contenuto {
+    border: 2px solid;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+#produttori {
+    border: 0px;
+}
+
+.menu-sinistra{
+    margin-top: 20px !important;
+}
+
+#img-specifica {
+    padding-top: 0px !important;
+    margin-top: -10px;
+}
+
+.noborder2 {
+    border: 0px !important;
+    padding-top: 0px !important;
+}
+
+.content {
+    border: 3px solid !important;
+}
+
+.legend {
+    margin-bottom: 30px !important;
+}
+
+.pass {
+    width: 124.4px !important;
+    height: 20px !important;
+}
+
+#contenutiscroll {
+    overflow-y: scroll;
+    height: 500px;
+    border: 3px solid;
+}
+
+.none {
+    border: 0px !important;
+    display: none;
+}
+
+.cont-int-ricettario {
+    text-align: center;
+    text-align: center;
+    padding-top: 15px;
+    border: 1px solid;
+    
+}
+
+.show {
+    display: block;
+}
+
+#myBtnContainer .btn {
+    border: 2px solid ;
+    background-color: #ffffb3;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#img-specifica {
+    padding: 0px;
+    border: 0px;
+}
+
+#descrizione {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    border: 0px;
+    height: 100%;
+}
+
+#descrizione1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    height: 100%;
+    border-width: 2px !important;
+    border-color: black !important;
+}
+
+#descrizione2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    height: 100%;
+    border-width: 2px 2px 2px 0px !important;
+    border-color: black !important;
+}
+
+#icon1{
+    border-width: 0px 3px 3px 0px !important;
+    border-style: dotted !important;
+    border-color: black !important;
+}
+
+#icon2{
+    border-width: 0px 0px 3px 0px !important;
+    border-style: dotted !important;
+    border-color: black !important;
+}
+
+#icon3{
+    border-width: 0px 3px 0px 0px !important;
+    border-style: dotted !important;
+    border-color: black !important;
+}
+
+#icon4{
+    border-width: 0px !important;
+}
+ 
+
+#img1, #img2, #img3, #img4, .ingredienti {
+    border: 0px !important;
+}
+#bottoncione {
+   text-align: center; 
+}
+
+#lineetta {
+    border: 6px;
+    border-bottom: 3px dotted;
+    padding-bottom: 20px
+}
+
+article {
+    border-bottom: 3px dotted;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+#first {
+    border-top: 3px dotted;
+    padding-top: 15px;
+}
+
+#pro-style {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#search-pro {
+    width: 100%;
+    height: 30px
+}
+
+#select1 {
+    height: 30px;
+    width: 100%;
+}
+
+#select2 {
+    height: 30px;
+    width: 70%;
+}
+
+.dotted {
+    border-top: 2px solid  !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+    border-bottom: 0px !important;
+}
+
+
+.img-specifica {
+    margin-top:100px;
+}
+
+.linea{
+    border-bottom: 3px dotted;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+/*css per il form*/
+
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container legend {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.loginmodal-submit {
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}

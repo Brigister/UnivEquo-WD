@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="it">
+    <head>
+    <!-- Viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Tag Meta-->
+    <title>UnivEquo</title>
+    <meta name="description" content="Shampoo"> <!-- Nome della pagina -->
+    <meta name="author" content="Gruppone Webbone">
+    
+    <!-- CSS -->
+    <link href="../../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../../css/css/Preset_Sito.css" rel="stylesheet">
+    <link href="../../../css/css/media-query.css" rel="stylesheet"> 
+    <link href="../../../css/css/print.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+</head>
+<body>
+    
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    <!--  -->
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+        
+    <!-- Questo è il logo -->
+    <a href="../../../Homepage.html"> <img src="../../../img/logo_unive.jpg" alt="logo univequo" style="height: 50px; width: 50px"> </a>
+
+    </div>
+    
+    <!--  -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+        <li class="active">
+            <a href="../../../Prodotti.html">Prodotti</a>
+        </li>
+        <li>
+            <a href="../../../Produttori.html">Produttori</a>   
+        </li>
+        <li>
+            <a href="../../../Lavora_con_noi.html">Lavora con noi</a>   
+        </li>
+        <li>
+            <a href="../../../Ricettario.html">Ricettario</a>   
+        </li>
+        <li>
+            <a href="../../../Social.html">Social</a>   
+        </li>
+        <li>
+            <a href="../../../Chi_Siamo.html">Chi siamo</a>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">       
+                
+    <!-- MENU DROPDOWN-Search Bar -->
+             
+    <li class="dropdown mobile-icon">
+    <!-- Bottone menu dropdown search bar -->
+    <a idhref="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-search"></i></a>
+    <ul class="dropdown-menu">
+    <form class="navbar-form navbar-left">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+    <a href="../../../Search-pro.html"><button type="button" class="btn btn-default pull-right">Cerca</button></a>
+    </form>
+    </ul>
+    </li>
+
+    <li class="mobile-icon">   
+    <a data-toggle="modal" data-target="#Login"><i class="glyphicon glyphicon-user"></i></a> 
+    
+    </li>
+    <li class="mobile-icon">
+    <a href="Indecisus.html"><i class="glyphicon glyphicon-log-in"></i></a>
+        
+    </li>
+    </ul>
+    
+        </div><!-- /.navbar-collapse -->
+    
+        </div><!-- /.container-fluid -->
+        
+    </nav>
+    <!-- Stampo per le pagine -->
+    
+    <!-- Path -->
+    <ol class="breadcrumb">
+         <li>
+             <a href="../../../Homepage.html">Home</a>
+         </li>
+         <li>
+             <a href="../../../Prodotti.html">Prodotti</a>
+         </li>
+         <li>
+             <a href="../../../Prodotti/Cosmesi.html">Cosmesi</a>
+         </li>
+         <li>
+             <a href="../../../Prodotti/Cosmesi/Capelli.html">Capelli</a>
+         </li>
+         <li class="active">Shampoo</li>
+    </ol>    
+    
+    <!-- Banner 
+    <div>
+        <img src="../../../img/Prodotti2.jpeg" class="img-responsive">
+    </div>
+    -->
+    <!-- Cose -->
+    <div id="prodotto-spec" class="container">
+        <div class="row">
+            <div id="menu_sx" class="col-sm-2 menu-sinistra">
+                    
+            <button class="accordion">Alimenti</button>
+                <div class="panel">
+                    <ul id="list">
+                        <li class="sottomenu">
+                            <a href="../../../Prodotti/Alimenti/Verdura.html">Verdura</a>
+                        </li>
+            
+                        <li class="sottomenu">
+                            <a href="#">Frutta</a>
+                        </li>
+            
+                        <li class="sottomenu">
+                            <a href="#">Tè e Tisane</a>
+                        </li>
+            
+                        <li class="sottomenu">
+                            <a href="#">Cioccolato</a>
+                        </li>
+                        
+                        <li class="sottomenu">
+                            <a href="#">Spezie e Condimenti</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            <button class="accordion">Abbigliamento</button>
+                <div class="panel">
+                    <ul id="list">
+                         <li class="sottomenu">
+                             <a href="#">Cappelli</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="../../../Prodotti/Abbigliamento/Magliette.html">Magliette</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Maglioni</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Pantaloni</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Calzini</a>
+                         </li>
+                     </ul>
+                </div>
+                
+             <button class="accordion">Cosmesi</button>
+                 <div class="panel">
+                     <ul id="list">
+                         <li class="sottomenu">
+                              <a href="../../../Prodotti/Cosmesi/Capelli.html">Capelli</a>
+                          </li>
+
+                          <li class="sottomenu">
+                              <a href="#">Igiene quotidiana</a>
+                          </li>
+
+                          <li class="sottomenu">
+                              <a href="#">Viso</a>
+                          </li>
+
+                          <li class="sottomenu">
+                              <a href="#">Corpo</a>
+                          </li>
+                     </ul>
+                </div>
+                
+             <button class="accordion">Arredamento</button>
+                 <div class="panel">
+                     <ul id="list">
+                         <li class="sottomenu">
+                             <a href="../../../Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Tessuti</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Decorazioni</a>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Serious Business -->
+            
+            
+         <div class="col-sm-9 col-xs-12 contenuto-dx"> 
+                <h1 style="text-align: center; font-size: 50px;"><strong>SHAMPOO</strong></h1>
+                <div class="col-sm-5 noborder">
+                    <div id="margin-img-specifica" class="col-xs-12 noborder nopadding">
+                        <img class="immagine" alt="immagine di uno shampoo" src="../../../img/Shampoo.jpg">  
+                    </div>
+                </div>
+                
+                
+            <!-- --> 
+            
+             
+             <div class="col-sm-offset-1 col-sm-6 col-xs-12 noborder justify">
+                    <div class="col-xs-12 descrizione ">
+                        <p> Uno shampoo in crema per detergere delicatamente i capelli senza danneggiarli.<br>
+                            Burro di karité e olio di mandorle rendono questo shampoo ideale per donare nutrimento e morbidezza a capelli crespi e sfibrati, restituendogli forza e vitalità 
+                            Scopri altri altri prodotti su <a href="../../../Homepage.html"> Univequo </a>! 
+
+                    </div>
+                    <div class="col-xs-12 descrizione nobordertop" >
+                    
+                    <p> Seleziona la quantità:  
+                        
+                               <select id="select" name="quantità">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                       </p>
+                        
+                        <div class="noborder mouse">
+                            <img class="vertical hover" src="../../../img/riciclo.png">
+                            <p class="mouseover"> La confezione di questo prodotto è riciclabile. </p>
+                        </div>
+                        <div class="noborder mouse">
+                            <img class="vertical hover" src="../../../img/favaro.png">
+                            <p class="mouseover"> Non testato sugli animali, come previsto dal Regolamente Europeo 1223/209 sui cosmetici.</p>
+                        </div>
+                        <div class="noborder mouse">
+                            <img class="vertical hover" src="../../../img/cosmesibio.png">
+                            <p class="mouseover"> Prodotto certificato secondo i rigorosi criteri CCPB o Natrue, standard internazionale che garantisce naturalità, elementi biologici e rispetta l'ambiente.</p>
+                        </div>
+                        </div>
+                 
+                 
+                 <!-- le immagini qui sono una merda non capisco come si fixino, c'è hover nel preset e nelle media query -->
+                 
+                </div>
+                
+               <div class="col-xs-12 text-center bordertop"> 
+                     
+                <div class="btn" role="group">
+                  <a href="../../../Carrello.html"><button  type="button" class="btn btn-default">Aggiungi al Carrello</button></a>
+                   
+                    <button type="button" class="btn btn-default">Acquista subito</button>
+                </div>
+                </div>
+                
+                
+                
+                
+                
+            <!-- Form Recensioni -->
+                <div class="col-xs-12 text-center bordertop">
+                    <form>
+                        <label><h1>Raccontaci la tua esperienza!</h1></label><br>
+                        <label>Inserisci i tuoi dati:</label> <br>
+                        <input type="text" name="Nome" placeholder="Nome">
+                        <input type="text" name="Cognome" placeholder="Cognome"><br><br>
+                        <label>Inserisci qui la tua recensione!</label> <br>
+                        <textarea name="message" rows="5" cols="47"></textarea><br><br>
+                        <label>Valuta infine il nostro prodotto</label>
+                        <select name="stelle">
+                           <option value="1stella">1 stella</option>
+                           <option value="2stelle">2 stelle</option>
+                           <option value="3stelle">3 stelle</option>
+                           <option value="4stelle">4 stelle</option>
+                           <option value="5stelle">5 stelle</option>
+                         </select> <br><br>
+                        <button type="button">Invia la tua recensione</button>
+                    </form>
+                </div>
+                    
+            </div>
+        </div>    
+    </div>
+    <div class="container">
+        <div class="row">
+        <div id="spazio" class="col-sm-6 border">
+            <h1>Formidabile</h1>
+            <div class="col-sm-4 noborder">
+                <p>Luisella</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                
+            </div>
+            <div class="col-sm-8 noborder">
+                <p> Mi sono ritrovata in un viaggio senza il balsamo e con solo questo prodotto ed è stato una vera rivelazione tanto che ho deciso di acquistarne un sacco di flaconi. Consigliato!
+                </p>
+            </div>
+        </div>
+        <div id="spazio1" class="col-sm-6 border">
+            <h1>Mi ha stupita</h1>
+            <div class="col-sm-4 noborder">
+                <p>Gianna Giananini</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                
+            </div>
+            <div class="col-sm-8 noborder">
+                <p> Shampoo particolare, bio, che dona ai capelli una sensazione al tatto di liscio perfetto, che raramente gli shampi 100% biologici sanno donare ai capelli! Consigliato
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--- Social Bar --->
+    <div class="container">
+    <div id="social-bar" class="row text-center">
+        <div id="div_fb" class="col-sm-2"> 
+            <a href="https://www.facebook.com/UnivEquo/" target="_blank"> <img class=" center-block" height="70%" id="logo_fb" src="../../../Img/facebook-icon.png" alt="logo di facebook"></a>
+        </div>
+        <div id="div_insta" class="col-sm-2">    
+            <a href="https://www.instagram.com/UnivEquo/" target="_blank"><img class="center-block" height=" 70%" id="logo_insta" src="../../../Img/logo_instagram.png" alt="logo di instagram"></a>
+
+        </div>
+        <div id="newsletter" class="col-sm-8 align-middle">
+        <h3>Newsletter</h3>
+        <form action="" method="post">
+        <div class="input-prepend">
+        <span class="add-on"><i class="icon-envelope"></i></span>
+               <input type="text" id="" name="" placeholder="your@email.com">
+               <input type="submit" value="Iscriviti ora!" class="btn btn-default" />
+        </div>
+        </form>
+        </div>    
+    </div>
+
+    </div>
+    
+    <!-- Form per il Login -->
+    
+    
+    <div id="Login" class="modal fade" tabindex="-1" role="dialog"aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<legend>Accedi al tuo Account</legend><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+					
+				  <div class="login-help">
+					<a href="../../../Registrazione.html">Registrati</a> - <a href="#">Password Dimentica</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
+  
+    <!-- Footer -->
+    
+    <footer class="footer">
+        <div  class="container">
+        <p>
+            Sede legale Via Torino Edificio Z Interno Aula C  <span class="paperino"><br></span><span class="footer-destra">&copy; Powered By Gruppone Wolfone</span>                       
+        </p>
+        
+        </div>
+    </footer>
+    </body>
+    
+    <!-- Script --->
+    
+    <script src="../../../js/jquery.min.js"></script>
+    <script src="../../../js/bootstrap.js"></script>
+    <script src="../../../js/menusx.js"></script>
+
+</html>
